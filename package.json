@@ -9,7 +9,7 @@
   "author": "David Longworth <davidlongworth.com>",
   "license": "ISC",
   "dependencies": {
-    "@dadi/web": "github:dadi/web#feature/apis-config",
+    "@dadi/web": "github:dadi/web#develop",
     "contentful-resolve-response": "^1.1.4"
   }
 }
