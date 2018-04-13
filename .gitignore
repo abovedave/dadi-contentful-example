@@ -1,0 +1,10 @@
+# Auth wallet
+.wallet
+
+# Logs
+log
+*.log
+
+.DS_Store
+cache
+node_modules

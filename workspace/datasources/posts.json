@@ -1,0 +1,25 @@
+{
+  "datasource": {
+    "key": "posts",
+    "source": {
+      "api": "contentful",
+      "endpoint": "entries"
+    },
+    "query": {
+      "content_type": "YOUR_CONTENT_ID",
+      "limit": 2
+    },
+    "requestParams": [
+      {
+        "param": "slug",
+        "field": "fields.slug",
+        "target": "query"
+      },
+      {
+        "param": "skip",
+        "field": "skip",
+        "target": "query"
+      }     
+    ]
+  }
+}

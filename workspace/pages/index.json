@@ -1,0 +1,19 @@
+{
+  "page": {
+    "name": "index"
+  },
+  "events": [
+    "resolveResponse"
+  ],
+  "datasources": [
+    "posts"
+  ],
+  "routes": [
+    {
+      "path": "/"
+    },
+    {
+      "path": "/post/:slug?"
+    }
+  ]
+}

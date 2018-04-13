@@ -1,0 +1,39 @@
+{
+  "global": {
+    "site": "Your site name",
+    "description": "An exciting beginning."
+  },
+  "server": {
+    "host": "127.0.0.1",
+    "port": 3001
+  },
+  "cluster": false,
+  "allowDebugView": true,
+  "debug": true,
+  "api": {
+    "contentful": {
+      "type": "restapi",
+      "auth": {
+        "qs": {
+          "access_token": "YOUR_KEY_HERE"
+        }
+      },
+      "provider": {
+        "contentful": {
+          "https://cdn.contentful.com": {
+            "__domain": {
+              "auth": {
+                "qs": {"access_token": "[0]"}
+              }
+            },
+            "spaces/kfgdx2okhk3n/{endpoint}": {
+              "__path": {
+                "alias": "__default"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
